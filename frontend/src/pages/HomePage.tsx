@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
+import headerImg from "../assets/home-page-header.jpg";
 
 function HomePage() {
   return (
     <main role="main" style={{ background: "#f8fafc", minHeight: "100vh" }}>
       <section style={{ position: "relative" }}>
         <img
-          src="/src/assets/home-page-header.jpg"
+          src={headerImg}
           alt="Anchorage"
           style={{
             width: "100%",
